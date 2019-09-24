@@ -1,6 +1,6 @@
 FROM node:10.16.3-alpine as main
 
-FROM main as user
+FROM image_main as image_user
 
 RUN mkdir /node_modules /topos
 
