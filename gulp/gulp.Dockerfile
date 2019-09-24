@@ -11,3 +11,5 @@ RUN apk update && apk add --virtual --no-cache \
   chown -R topos:topos $(pwd) /node_modules && \
   npm install -g gulp gulp-cli && \
   npm cache clean --force && apk del shadow
+
+USER topos
