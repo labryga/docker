@@ -4,3 +4,6 @@
 !/R
 
 !/.gitignore
+
+!/webpack
+/webpack/test
