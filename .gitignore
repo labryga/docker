@@ -6,4 +6,7 @@
 !/.gitignore
 
 !/webpack
-/webpack/test
+/webpack/webpacke_5/node_modules
+/webpack/webpack_5/.npm
+
+.ash_history
