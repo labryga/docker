@@ -6,7 +6,7 @@ ARG host_user_id
 ENV user_name=$host_user_name
 ENV user_id=$host_user_id
 
-RUN apk update && apk add --virtual --no-cache shadow && \
+RUN apk update && apk add --virtual --no-cache shadow inotify-tools && \
   usermod -u 2000 node && groupmod -g 2000 node && \
   adduser -D -g "" -u "$user_id" "$user_name"
 
