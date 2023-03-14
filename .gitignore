@@ -5,6 +5,8 @@
 
 !/.gitignore
 
+!/nodejs
+
 !/webpack
 /webpack/webpack_5/node_modules
 /webpack/webpack_5/.npm
